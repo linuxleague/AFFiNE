@@ -516,11 +516,12 @@ __metadata:
   linkType: soft
 
 "@affine/linked-page-plugin@workspace:plugins/linked-page":
-  version: 0.1.0-use.local
+  version: 0.0.0-use.local
   resolution: "@affine/linked-page-plugin@workspace:plugins/linked-page"
   dependencies:
+    "@affine/component": "workspace:*"
     "@affine/plugin-cli": "workspace:*"
-    "@toeverything/plugin-infra": "workspace:*"
+    "@affine/sdk": "workspace:*"
   languageName: unknown
   linkType: soft
 
